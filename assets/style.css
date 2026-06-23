@@ -1,0 +1,85 @@
+/* Custom dark medical-grade CSS theme for Streamlit */
+
+/* Overall background */
+.stApp {
+    background-color: #0D0E1A;
+}
+
+/* Sidebar background */
+[data-testid="stSidebar"] {
+    background-color: #13152A;
+}
+
+/* Base text color */
+.stApp, .stApp p, .stApp span, .stApp div {
+    color: #B4B2A9;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+}
+
+/* All card/container surfaces: #13152A with 1px border of #534AB7 at 30% opacity */
+.stInfo, .stSuccess, .stWarning, .stError, [data-testid="metric-container"], .stExpander, [data-testid="stAlert"] {
+    background-color: #13152A !important;
+    border: 1px solid rgba(83, 74, 183, 0.3) !important;
+    border-radius: 8px;
+}
+
+/* Streamlit metric cards: dark surface with purple left border */
+[data-testid="metric-container"] {
+    border-left: 4px solid #7F77DD !important;
+    padding: 15px;
+}
+[data-testid="stMetricLabel"] {
+    color: #B4B2A9 !important;
+}
+[data-testid="stMetricValue"] {
+    color: #FFFFFF !important;
+}
+[data-testid="stMetricDelta"] > div {
+    color: #B4B2A9 !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #534AB7 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+}
+
+/* Add a subtle purple glow to interactive elements on hover using box-shadow */
+.stButton > button:hover, input:hover, select:hover, textarea:hover, [data-testid="stCheckbox"]:hover, [data-testid="stRadio"]:hover {
+    box-shadow: 0 0 10px rgba(127, 119, 221, 0.5) !important;
+}
+
+/* Progress bars */
+.stProgress > div > div > div > div {
+    background-color: #7F77DD;
+}
+
+/* Sidebar navigation active item highlight */
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+    background-color: rgba(127, 119, 221, 0.2) !important;
+}
+[data-testid="stSidebarNav"] a[aria-current="page"] span {
+    color: #7F77DD !important;
+}
+
+/* Remove default Streamlit top decoration bar (hamburger menu area) */
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+/* All st.expander components: dark surface, purple border on expand */
+.stExpander {
+    border: 1px solid rgba(83, 74, 183, 0.3) !important;
+    background-color: #13152A !important;
+}
+.stExpander:focus-within {
+    border-color: #7F77DD !important;
+}
