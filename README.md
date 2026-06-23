@@ -117,7 +117,7 @@ The system is designed to assist radiological analysis by providing **robust, co
 ## 👨‍💻 Author
 
 - **Deekshitha Bhairav**
-- AIML Engineering Student
+- Aspiring AI/ML Engineer
 
 ---
 
