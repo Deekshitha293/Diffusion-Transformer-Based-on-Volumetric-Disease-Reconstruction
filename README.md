@@ -63,7 +63,7 @@ The system is designed to assist radiological analysis by providing **robust, co
 
 ---
 
-## 🖥️ System Requirement and key 
+## 🖥️ System Requirement
 
 ### Hardware
 | Component | Minimum | Recommended |
