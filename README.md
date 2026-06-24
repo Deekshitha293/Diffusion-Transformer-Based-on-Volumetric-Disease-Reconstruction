@@ -12,7 +12,7 @@ The system is designed to assist radiological analysis by providing **robust, co
 - Improve medical image segmentation accuracy
 - Capture global relationships across image slices
 - Reduce noise and enhance boundary precision
-- Enable coherent 3D volumetric reconstruction
+- Enable coherent 3D volumetric reconstruction 
 - Provide quantitative insights for diagnosis support
 
 ---
